@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>genomorro</name>
+    <description>Ebuilds recopilation</description>
+    <homepage>http://github.com/genomorro/genomorro-overlay</homepage>
+    <owner>
+      <email>edgar_uriel84@mailoo.org</email>
+      <name>Edgar Uriel Domínguez Espinoza</name>
+    </owner>
+    <source type="git">git://github.com/sjvermeu/genomorro-overlay.git</source>
+    <feed>http://github.com/feeds/genomorro/commits/genomorro-overlay/master</feed>
+  </repo>
+</repositories>

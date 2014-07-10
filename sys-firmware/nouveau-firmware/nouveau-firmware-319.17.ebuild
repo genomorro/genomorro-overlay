@@ -1,0 +1,1 @@
+../nouveau-firmware/nouveau-firmware-325.15.ebuild

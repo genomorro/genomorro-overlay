@@ -1,0 +1,12 @@
+# Copyright 1999-2014 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+# This file contains descriptions of local USE flags, and the ebuilds which
+# contain them.
+
+# Keep it sorted.
+
+sci-misc/praat:ipa - Add IPA fonts
+media-sound/clyrics:moc - optional daemon support for moc player
+media-sound/clyrics:cmus - optional daemon support for cmus player

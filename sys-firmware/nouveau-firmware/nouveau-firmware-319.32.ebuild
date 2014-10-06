@@ -1,1 +1,1 @@
-../nouveau-firmware/nouveau-firmware-325.15.ebuild
+../nouveau-firmware/nouveau-firmware-340.32.ebuild

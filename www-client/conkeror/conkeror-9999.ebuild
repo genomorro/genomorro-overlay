@@ -5,7 +5,7 @@
 EAPI=5
 
 EGIT_REPO_URI="git://repo.or.cz/conkeror.git"
-EGIT_BRANCH="gecko26-downloads-fix"
+EGIT_BRANCH="master"
 
 inherit eutils git-r3 toolchain-funcs fdo-mime
 

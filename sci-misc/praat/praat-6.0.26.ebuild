@@ -5,12 +5,9 @@
 EAPI=4
 
 inherit versionator
-# FIXME: for versions with last part < 10 pad with zeroes
-# e.g 4 => 4000, 5.1 => 5100, 5.2.7 => 5207.
-MY_PV=$(delete_all_version_separators)
 
 DESCRIPTION="Speech analysis and synthesis"
-SRC_URI="http://www.fon.hum.uva.nl/praat/${PN}${MY_PV}_sources.tar.gz"
+SRC_URI="https://github.com/praat/praat/archive/v${PV}.tar.gz"
 HOMEPAGE="http://www.fon.hum.uva.nl/praat/"
 
 KEYWORDS="amd64 x86"
@@ -26,7 +23,7 @@ DEPEND="x11-libs/gtk+:2
 
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/sources_${MY_PV}"
+S="${WORKDIR}/praat-${PV}"
 
 src_prepare() {
 	# TODO: following line should be updated for non-linux etc. builds

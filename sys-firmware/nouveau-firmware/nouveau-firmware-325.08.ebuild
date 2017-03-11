@@ -1,1 +1,0 @@
-../nouveau-firmware/nouveau-firmware-340.32.ebuild

@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
-PYTHON_DEPEND="2"
+PYTHON_COMPAT=( python2_7 )
 
-inherit python eutils fdo-mime
+inherit python-r1 eutils fdo-mime
 
 DESCRIPTION="Keyboard Status Monitor"
 HOMEPAGE="https://code.google.com/p/key-mon/"

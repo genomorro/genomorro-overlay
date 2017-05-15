@@ -17,7 +17,8 @@ RDEPEND="${DEPEND}
          moc? ( media-sound/moc )
          cmus? ( media-sound/cmus )"
 
-DEPEND="dev-perl/WWW-Mechanize"
+DEPEND="dev-perl/WWW-Mechanize
+	dev-perl/LWP-Protocol-https"
 
 src_unpack() {
     unpack ${A}

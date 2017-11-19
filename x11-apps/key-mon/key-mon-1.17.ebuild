@@ -1,12 +1,12 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=5
+EAPI=6
 
 PYTHON_COMPAT=( python2_7 )
 
-inherit python-r1 eutils fdo-mime
+inherit python-single-r1 eutils fdo-mime
 
 DESCRIPTION="Keyboard Status Monitor"
 HOMEPAGE="https://code.google.com/p/key-mon/"
@@ -26,13 +26,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 pkg_setup() {
-	python_set_active_version 2
-	python_pkg_setup
-}
-
-src_prepare() {
-	python_convert_shebangs 2 src/${PN}
-	python_convert_shebangs 2 src/keymon/*.py
+	python-single-r1_pkg_setup
 }
 
 src_install() {

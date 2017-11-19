@@ -46,6 +46,13 @@ src_install() {
 pkg_postinst() {
 	fdo-mime_mime_database_update
 	fdo-mime_desktop_database_update
+	einfo
+	elog "This ebuild is not supported by Gentoo, so"
+	elog "please do not send any bugs at Gentoo's bugzilla."
+	elog "If you need help, find it here:"
+	elog "edgar_uriel84@NOSPAM.genomorro.name"
+	elog ""
+	einfo
 }
 
 pkg_postrm() {

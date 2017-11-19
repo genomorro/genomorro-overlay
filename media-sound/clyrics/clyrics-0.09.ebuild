@@ -43,7 +43,7 @@ pkg_postinst() {
     elog "This ebuild is not supported by Gentoo, so"
     elog "please do not send any bugs at Gentoo's bugzilla."
     elog "If you need help, find it here:"
-    elog "edgar_uriel84@NOSPAM.mailoo.org"
+    elog "edgar_uriel84@NOSPAM.genomorro.name"
     elog ""
     einfo
 }

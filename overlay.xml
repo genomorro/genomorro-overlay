@@ -6,7 +6,7 @@
     <description>Ebuilds recopilation</description>
     <homepage>https://gitlab.com/gnu-stuff/genomorro-overlay.git</homepage>
     <owner>
-      <email>edgar_uriel84@mailoo.org</email>
+      <email>edgar_uriel84@genomorro.name</email>
       <name>Edgar Uriel Domínguez Espinoza</name>
     </owner>
     <source type="git">git@gitlab.com:gnu-stuff/genomorro-overlay.git</source>

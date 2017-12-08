@@ -14,7 +14,6 @@ SLOT="0"
 
 MY_PN="NumixSolarized"
 
-https://github.com/Ferdi265/numix-solarized-gtk-theme/releases/download/20170810/NumixSolarized-20170810.tar.gz
 BASE_URI="https://github.com/Ferdi265/${PN}"
 
 KEYWORDS="*"

@@ -17,7 +17,7 @@ IUSE="doc"
 
 DEPEND="
 	dev-java/antlr:3
-	=dev-java/gradle-bin-1.8*
+	dev-java/gradle-bin
 	dev-java/junit:4
 "
 RDEPEND="${DEPEND}"

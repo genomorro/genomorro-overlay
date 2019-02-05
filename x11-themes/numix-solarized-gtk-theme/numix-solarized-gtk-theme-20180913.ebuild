@@ -20,7 +20,7 @@ KEYWORDS="*"
 SRC_URI="${BASE_URI}/releases/download/${PV}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
 DEPEND="
-	x11-libs/gtk+:2
+	x11-libs/gtk+:3
 	x11-themes/gtk-engines-murrine
 "
 RDEPEND="${DEPEND}"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>edgar_uriel84@genomorro.name</email>
+		<name>Edgar Uriel Domínguez Espinoza</name>
+		<description>Genomorro overlay</description>
+	</maintainer>
+</pkgmetadata>

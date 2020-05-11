@@ -10,3 +10,8 @@
 sci-misc/praat:ipa - Add IPA fonts
 media-sound/clyrics:moc - optional daemon support for moc player
 media-sound/clyrics:cmus - optional daemon support for cmus player
+x11-themes/Solarized-Desktop:dark - Install dark themes from rtl88-Themes
+x11-themes/Solarized-Desktop:light - Install light theme from rtl88-Themes
+x11-themes/Solarized-Desktop:deluxe - Install basic deluxe icons
+x11-themes/Solarized-Desktop:icons - Install complete dark solarized icon pack
+x11-themes/Solarized-Desktop:cursors - Install solarized color cursors

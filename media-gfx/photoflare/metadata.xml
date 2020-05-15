@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<!--
+  This is the example metadata file.
+  The root element of this file is <pkgmetadata>. Within this element a
+  number of subelements are allowed, the most common being maintainer.
+
+  For a full description look at:
+  https://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/
+
+  Before committing, please remove the comments from this file. They are
+  not relevant for general metadata.xml files.
+-->
+<pkgmetadata>
+  <maintainer type="person">
+    <email>edgar_uriel84@genomorro.name</email>
+    <description>Primary maintainer</description>
+  </maintainer>
+  <maintainer type="project">
+    <email>edgar_uriel84@genomorro.name</email>
+    <name>Genomorro Overlay</name>
+  </maintainer>
+  <longdescription>
+    This  is   an  effort   to  bring  quick,   simple  but  powerful   image  editing   to  the
+    masses. Photoflare  is inspired by  the image editor  currently only available  on Microsoft
+    Windows – PhotoFiltre. However, it will not be  a straight clone. It is being built from the
+    ground up to be much improved and cross platform too!
+  </longdescription>
+  <!-- <use> -->
+  <!--   <flag name="aspell">Uses <pkg>app-text/aspell</pkg> for spell checking. -->
+  <!--     Requires an installed dictionary from <cat>app-dicts</cat></flag> -->
+  <!--   <flag name="flag">Description of how USE='flag' affects this package</flag> -->
+  <!--   <flag name="userland_GNU">Description of how USERLAND='GNU' affects this -->
+  <!--     package</flag> -->
+  <!-- </use> -->
+</pkgmetadata>

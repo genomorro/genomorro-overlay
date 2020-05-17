@@ -5,10 +5,6 @@
     <email>edgar_uriel84@genomorro.name</email>
     <description>Primary maintainer</description>
   </maintainer>
-  <maintainer type="project">
-    <email>edgar_uriel84@genomorro.name</email>
-    <name>Genomorro Overlay</name>
-  </maintainer>
   <longdescription>
     This  is   an  effort   to  bring  quick,   simple  but  powerful   image  editing   to  the
     masses. Photoflare  is inspired by  the image editor  currently only available  on Microsoft
@@ -16,8 +12,6 @@
     ground up to be much improved and cross platform too!
   </longdescription>
   <use>
-    <flag name="aspell">Uses <pkg>app-text/aspell</pkg> for spell checking.
-      Requires an installed dictionary from <cat>app-dicts</cat></flag>
     <flag name="extra">Uses <pkg>dev-qt/qtimageformats</pkg> for extra file format support</flag>
   </use>
 </pkgmetadata>

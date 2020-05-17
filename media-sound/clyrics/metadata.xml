@@ -3,10 +3,10 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>edgar_uriel84@genomorro.name</email>
-    <name>Edgar Uriel Domínguez Espinoza</name>
-    <description>Genomorro overlay</description>
+    <description>Primary maintainer</description>
   </maintainer>
   <use>
-    <flag name="gtk2">Add compatibility with Gtk+2</flag>
+    <flag name="cmus">Optional daemon support for <pkg>media-sound/cmus</pkg></flag>
+    <flag name="moc">Optional daemon support for <pkg>media-sound/moc</pkg></flag>
   </use>
 </pkgmetadata>

@@ -3,10 +3,9 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>edgar_uriel84@genomorro.name</email>
-    <name>Edgar Uriel Domínguez Espinoza</name>
-    <description>Genomorro overlay</description>
+    <description>Primary maintainer</description>
   </maintainer>
   <use>
-    <flag name="gtk2">Add compatibility with Gtk+2</flag>
+    <flag name="ipa">Add IPA fonts</flag>
   </use>
 </pkgmetadata>

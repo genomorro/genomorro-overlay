@@ -28,12 +28,14 @@ SLOT="0"
 MY_PN=""
 
 KEYWORDS="*"
-IUSE="dark light deluxe icons cursors"
+IUSE="dark light deluxe icons cursors gtk2"
 REQUIRED_USE="|| ( dark light )"
 
 DEPEND="x11-libs/gtk+:3
-	x11-themes/gtk-engines-murrine"
-
+	gtk2? (
+	      x11-themes/gtk-engines-murrine
+	      )"
+	      
 RDEPEND="${DEPEND}
 	cursors? (
 		 !x11-themes/Solarized-Colors-Cursors

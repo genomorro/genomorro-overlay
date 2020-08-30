@@ -3,5 +3,6 @@ sys-apps/hdparm
 sys-apps/nvme-cli
 sys-fs/dosfstools
 sys-fs/exfat-utils
+sys-fs/fuse-exfat
 sys-fs/udiskie
 sys-fs/xfsprogs

@@ -4,7 +4,7 @@
 
 EAPI=6
 
-inherit eutils git-r3
+inherit eutils
 
 DESCRIPTION="GTK3.20-compatible version of bitterologist's Numix Solarized from deviantart; forked off Numix, inspired by bitterologist."
 HOMEPAGE="https://github.com/Ferdi265/numix-solarized-gtk-theme"
@@ -12,26 +12,25 @@ HOMEPAGE="https://github.com/Ferdi265/numix-solarized-gtk-theme"
 LICENSE="GPL-3+"
 SLOT="0"
 
-EGIT_REPO_URI="https://github.com/Ferdi265/numix-solarized-gtk-theme"
+MY_PN="NumixSolarized"
+
+BASE_URI="https://github.com/Ferdi265/${PN}"
+
 KEYWORDS="*"
+SRC_URI="${BASE_URI}/releases/download/${PV}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+IUSE="gtk2"
 
 DEPEND="
-	dev-libs/glib:2
-	dev-libs/libxml2
-	dev-ruby/sass
-	media-gfx/inkscape
-	x11-libs/gdk-pixbuf
-	x11-themes/gtk-engines-murrine
-"
-RDEPEND="
-	x11-themes/gtk-engines-murrine
 	x11-libs/gtk+:3
+	gtk2? (
+	      x11-themes/gtk-engines-murrine
+	      )
 "
+RDEPEND="${DEPEND}"
 
-src_compile(){
-	emake DESTDIR="${D}" || die
-}
+S="${WORKDIR}/${MY_PN}"
 
 src_install() {
-	emake DESTDIR="${D}" install || die
+	insinto /usr/share/themes/
+	doins -r *
 }

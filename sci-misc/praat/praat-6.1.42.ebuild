@@ -4,14 +4,12 @@
 
 EAPI=7
 
-#inherit versionator
-
 DESCRIPTION="Speech analysis and synthesis"
 SRC_URI="https://github.com/praat/praat/archive/v${PV}.tar.gz"
 HOMEPAGE="http://www.fon.hum.uva.nl/praat/"
 
 KEYWORDS="amd64 x86"
-IUSE="+ipa +pulseaudio static-libs +X"
+IUSE="doc +ipa +pulseaudio static-libs +X"
 LICENSE="GPL-2"
 SLOT="0"
 
@@ -29,8 +27,6 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}/praat-${PV}"
 
 src_prepare() {
-    # TODO: following line should be updated for non-linux etc. builds
-    # (Flammie does not have testing equipment)
     if use X; then
 	if use static-libs; then
 	    if use pulseaudio; then
@@ -60,7 +56,9 @@ src_install() {
 	mv praat_static praat
     fi
     dobin praat
-    dodir /usr/share/${PN}/test
-    insinto /usr/share/${PN}/test
-    doins test/*
+    if use doc; then
+	dodir /usr/share/${PN}/test
+	insinto /usr/share/${PN}/test
+	doins test/*
+    fi
 }

@@ -5,7 +5,7 @@
 EAPI=7
 
 DESCRIPTION="Speech analysis and synthesis"
-SRC_URI="https://github.com/praat/praat/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/praat/praat/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 HOMEPAGE="http://www.fon.hum.uva.nl/praat/"
 
 KEYWORDS="amd64 x86"

@@ -7,5 +7,6 @@
   </maintainer>
   <use>
     <flag name="ipa">Add IPA fonts</flag>
+    <flag name="static-libs">Statically linked with the standard C and C++ libraries</flag>
   </use>
 </pkgmetadata>

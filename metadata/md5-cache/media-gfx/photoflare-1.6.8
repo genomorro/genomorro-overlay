@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst
+DEPEND=|| ( sys-devel/gcc sys-devel/clang ) virtual/libc media-gfx/graphicsmagick dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtprintsupport:5 >=sys-libs/libomp-9 extra? ( dev-qt/qtimageformats:5 )
+DESCRIPTION=Quick, simple but powerful Cross Platform image editor.
+EAPI=7
+HOMEPAGE=https://photoflare.io
+IUSE=+extra
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=virtual/libc media-gfx/graphicsmagick dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtprintsupport:5 >=sys-libs/libomp-9 extra? ( dev-qt/qtimageformats:5 )
+SLOT=0
+SRC_URI=https://github.com/PhotoFlare/photoflare/archive/v1.6.8.tar.gz
+_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=bd8b64c5449317ddea830a3aedfb0e5c

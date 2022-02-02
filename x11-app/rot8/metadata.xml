@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>edgar_uriel84@genomorro.name</email>
+    <description>Primary maintainer</description>
+  </maintainer>
+  <longdescription>
+    Automatic rotate modern Linux desktop screen and input devices. Handy for convertible touchscreen notebooks like the Kaby Lake model of the HP Spectre x360.
+
+    Compatible with sway and X11.
+  </longdescription>
+</pkgmetadata>

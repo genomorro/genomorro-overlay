@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=5
+EAPI=8
 
 DESCRIPTION="An extensible lyrics fetcher, with daemon support for cmus and mocp."
 HOMEPAGE="https://github.com/trizen/clyrics"

@@ -1,8 +1,7 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=7
 
 inherit rpm autotools
 
@@ -13,7 +12,7 @@ HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 	http://www.openprinting.org/driver/epson-201207w"
 SRC_URI="http://download.ebz.epson.net/dsc/op/stable/SRPMS/${MY_PN}-${PV}-1lsb3.2.src.rpm"
 
-LICENSE="LGPL EPSON"
+LICENSE="LGPL-2.1 EPSON"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
@@ -23,9 +22,14 @@ DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/epson-inkjet-printer-filter-${PV}"
 
+QA_PREBUILT="
+	/opt/epson-inkjet-printer-201207w/lib64/libEpson_201207w.MT.so.1.0.0
+	/opt/epson-inkjet-printer-201207w/lib64/libEpson_201207w.so.1.0.0"
+
 src_prepare() {
 	eautoreconf
 	chmod +x configure
+	eapply_user
 }
 
 src_configure() {
@@ -37,7 +41,7 @@ src_configure() {
 src_install() {
 	insinto /opt/${MY_PN}/cups/lib/filter
 	doins src/epson_inkjet_printer_filter
-	chmod 755 ${D}/opt/${MY_PN}/cups/lib/filter/epson_inkjet_printer_filter
+	chmod 755 "${D}/opt/${MY_PN}/cups/lib/filter/epson_inkjet_printer_filter"
 
 	use amd64 && X86LIB=64
 
@@ -47,8 +51,8 @@ src_install() {
 	done
 
 	insinto /usr/share/cups/model/${MY_PN}
-	doins ../${MY_PN}-${PV}/ppds/* 
+	doins ../${MY_PN}-${PV}/ppds/*
 
-	dodoc AUTHORS COPYING COPYING.LIB COPYING.EPSON
+	dodoc "AUTHORS" "COPYING" "COPYING.LIB" "COPYING.EPSON"
 	dodoc ../${MY_PN}-${PV}/{Manual.txt,README}
 }

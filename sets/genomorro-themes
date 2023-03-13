@@ -3,5 +3,5 @@ x11-misc/picom
 x11-misc/qt5ct
 x11-misc/xwallpaper
 x11-themes/arc-theme
-x11-themes/papirus-icon-theme
+# x11-themes/papirus-icon-theme
 x11-themes/comix-xcursors

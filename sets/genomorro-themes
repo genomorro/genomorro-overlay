@@ -2,6 +2,5 @@ media-fonts/fonts-meta
 x11-misc/picom
 x11-misc/qt5ct
 x11-misc/xwallpaper
-x11-themes/arc-theme
-x11-themes/arc-icon-theme
+x11-themes/adwaita-qt
 x11-themes/comix-xcursors

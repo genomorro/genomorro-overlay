@@ -1,0 +1,4 @@
+app-accessibility/speech-dispatcher # for speech syntesis (text-to-speech) support
+# gnome-base/gsettings-desktop-schemas # for fallback mouse cursor theme e.g. on WMs
+x11-libs/libnotify # for desktop notifications
+www-client/firefox-bin

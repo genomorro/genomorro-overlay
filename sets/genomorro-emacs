@@ -1,0 +1,6 @@
+app-emacs/ebuild-mode
+app-emacs/emacs-openrc
+# code-cells-mode
+dev-python/jupytext
+# plantumo-mode
+media-gfx/plantuml

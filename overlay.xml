@@ -4,12 +4,12 @@
   <repo quality="experimental" status="unofficial">
     <name>genomorro</name>
     <description>Ebuilds recopilation</description>
-    <homepage>https://gitlab.com/gnu-stuff/genomorro-overlay.git</homepage>
+    <homepage>https://gitlab.com/genomorro/genomorro-overlay.git</homepage>
     <owner>
       <email>edgar_uriel84@genomorro.name</email>
       <name>Edgar Uriel Domínguez Espinoza</name>
     </owner>
-    <source type="git">git@gitlab.com:gnu-stuff/genomorro-overlay.git</source>
-    <feed>https://gitlab.com/gnu-stuff/genomorro-overlay/activity</feed>
+    <source type="git">git@gitlab.com:genomorro/genomorro-overlay.git</source>
+    <feed>https://gitlab.com/genomorro/genomorro-overlay/activity</feed>
   </repo>
 </repositories>

@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -31,15 +31,15 @@ DEPEND="|| ( sys-devel/gcc sys-devel/clang )
 	${RDEPEND}"
 
 src_configure() {
-    qmake Photoflare.pro PREFIX=/usr
+	qmake Photoflare.pro PREFIX=/usr
 }
 
 src_install() {
-    emake INSTALL_ROOT="${D}" install
+	emake INSTALL_ROOT="${D}" install
 }
 
 pkg_postinst()
 {
-    xdg_desktop_database_update
-    xdg_mimeinfo_database_update
+	xdg_desktop_database_update
+	xdg_mimeinfo_database_update
 }

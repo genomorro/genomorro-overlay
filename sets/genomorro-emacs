@@ -3,5 +3,5 @@ app-emacs/emacs-daemon
 app-emacs/emacs-openrc
 # code-cells-mode
 #dev-python/jupytext
-# plantumo-mode
+# plantuml-mode
 media-gfx/plantuml

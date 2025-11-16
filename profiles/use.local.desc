@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation.
+# Copyright 1999-2025 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,8 +11,3 @@ media-gfx/photoflare:extra - Uses dev-qt/qtimageformats for extra file format su
 media-sound/clyrics:cmus - optional daemon support for cmus player
 media-sound/clyrics:moc - optional daemon support for moc player
 sci-misc/praat:ipa - Add IPA fonts
-x11-themes/Solarized-Desktop:cursors - Install solarized color cursors
-x11-themes/Solarized-Desktop:dark - Install dark themes from rtl88-Themes
-x11-themes/Solarized-Desktop:deluxe - Install basic deluxe icons
-x11-themes/Solarized-Desktop:icons - Install complete dark solarized icon pack
-x11-themes/Solarized-Desktop:light - Install light theme from rtl88-Themes

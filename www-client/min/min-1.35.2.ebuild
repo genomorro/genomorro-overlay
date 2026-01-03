@@ -18,8 +18,7 @@ KEYWORDS="-* amd64 ~arm64"
 RESTRICT="bindist mirror"
 IUSE="alsa doc libnotify"
 
-RDEPEND="app-crypt/libsecret
-	dev-lang/python
+RDEPEND="dev-lang/python
 	dev-libs/libgcrypt
 	dev-libs/nss
 	libnotify? ( x11-libs/libnotify )

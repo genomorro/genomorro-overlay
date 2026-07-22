@@ -1,9 +1,9 @@
 app-admin/testdisk
 sys-apps/hdparm
 sys-apps/nvme-cli
+sys-fs/android-file-transfer-linux
 sys-fs/dosfstools
 sys-fs/exfat-utils
 sys-fs/fuse-exfat
-sys-fs/simple-mtpfs
 sys-fs/udiskie
 sys-fs/xfsprogs

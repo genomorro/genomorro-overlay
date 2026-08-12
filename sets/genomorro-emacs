@@ -2,6 +2,8 @@ app-emacs/ebuild-mode
 app-emacs/emacs-daemon
 app-emacs/emacs-openrc
 # code-cells-mode
-#dev-python/jupytext
+dev-python/jupytext
+# sync bbdb
+dev-python/vdirsyncer
 # plantuml-mode
 media-gfx/plantuml

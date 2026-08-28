@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Edgar Uriel Domínguez Espinoza</name>
+    <email>edgar_uriel84@genomorro.name</email>
+    <description>Primary maintainer</description>
+  </maintainer>
+  <longdescription>
+    Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:
+
+    Full-text search for visited pages
+    Ad and tracker blocking
+    Automatic reader view
+    Tasks (tab groups)
+    Bookmark tagging
+    Password manager integration
+    Dark theme
+  </longdescription>
+</pkgmetadata>
